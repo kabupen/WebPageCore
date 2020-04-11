@@ -1,0 +1,74 @@
+
+.main_page {
+    background: whitesmoke;
+    width : auto;
+    height : 1000px;
+    margin : 10px;
+}
+
+.header {
+    background: yellow;
+    position:relative;
+    width:95%;
+    height : 50px;
+    top   : 5px;
+    margin: 10px auto;
+    font-weight: bold;
+
+    border       : solid 3px #6091d3;
+    border-radius: 10px;
+}
+
+.top_block {
+    background: pink;
+    width:95%;
+    height : 200px;
+    top : 5px;
+    margin: 10px auto;
+}
+
+.top_left {
+    display : block;
+    background: pink;
+    width : 20%;
+    height : 0; /*300px;*/
+    padding-bottom: 100%;
+    position : relative;
+
+    top : 10px;
+    left : 50px;
+    float: left;
+}
+
+.top_right {
+    display : block;
+    background: yellow;
+    width : 70%;
+    height : 200px;
+    position : relative;
+
+    top : 10px;
+    left : 1px;
+    float: right;
+    margin : 10px;
+}
+
+.top_img {
+    border-radius: 50%; /* 角丸半径を50%にする(=円形にする) */
+}
+
+.account {
+    display: inline-block;
+    background-color: #ccc;
+    padding: 20px;
+    height: 10px;
+}
+
+.main_body {
+    background: yellow;
+    width : 95%;
+    height : 200px;
+    position : relative;
+    top : 350px;
+    margin: 10px auto;
+}
