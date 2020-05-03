@@ -1,60 +1,233 @@
 <!DOCTYPE html>
 <html>
+
     <head>
-        <meta charset="UTF-8">
-        <title>Kosuke Takeda personal page</title>
-        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta charset="utf-8">
+        <title>Kosuke Takeda Web</title>
+        <meta name="description" content="Kosuke Takeda personal page">
+        <meta name="viewport" content="width=1024">
+        <link rel='stylesheet' href='css/common.css'>
+        <link rel='stylesheet' href='css/personal_info.css'>
     </head>
-    <body>
-        <div class="main_page">
-            <div class="header" align="center">
-                Kosuke Takeda's page
-            </div>
-            <div class="top_left">
-                <img class="top_img" src="figure/top.jpg" width=100%></img>
-            </div>
 
-            <div class="top_right">
-                大阪府生まれ
-                <p>
-                <div class="account">
-                    <a href="https://github.com/ksktkd" target="_blank">GitHub</a>
+    <body class="top" id="top">
+        <div id="wrapper">
+            <header id="header">
+                <div id="header-top" class="clearfix">
+                    <div class="inner">
+                        <h1><a href="/">素粒子物理国際研究センター</a></h1>
+                        <div id="header-r">
+                            <nav id="nav-header-sub">
+                                <ul class="clearfix">
+                                    <li><a href="access/index.html">アクセス</a></li>
+                                    <li><a href="job/index.html">採用情報</a></li>
+                                    <li><a href="sitemap/index.html">サイトマップ</a></li>
+                                    <li><a href="en/index.html">ENGLISH</a></li>
+                                </ul>
+                            </nav>
+                            <a class="to-univ" href="http://www.u-tokyo.ac.jp/index_j.html" target="_blank">東京大学</a>
+                        </div>
+                    </div>
+                </div> <!-- header top -->
+
+                <div id="header-under">
+                    <div class="inner">
+                        <nav id="nav-header-main">
+                            <ul class="clearfix">
+                                <li><a href="contents/history.html">研究業績</a></li>
+                                <li><a href="contents/memo.html">技術メモ</a></li>
+                                <li><a href="research/index.html">研究活動</a></li>
+                                <li><a href="collaboration/index.html">共同研究</a></li>
+                                <li><a href="graduate/index.html">大学院教育</a></li>
+                                <li><a href="outreach/index.html">広報活動</a></li>
+                                <li><a href="https://github.com/ksktkd" target="_blank">GitHub</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div> <!-- header under -->
+            </header>
+
+            <div id="main" class="clearfix">
+                <div class="top-visual">
+                    <div class="top-visual__inner">
+                        <h2 class="top-visual__hd" id="js-top-visual-hd">
+                        </h2>
+                    </div>
+                    <div class="top-slide" id="js-top-slide">
+                        <img src="./img/takeda.jpg" width=50%>
+                    </div>
                 </div>
-                <div class="account">
-                    <a href="https://gitlab.cern.ch/ktakeda" target="_blank">GitLab</a>
+                <!-- /.top-visual -->
+                <section class="top-info">
+                    <h2 class="top-hd">Contents</h2>
+                    <a href="information/" class="top-link">一覧</a>
+                    <ul class="top-info__list">
+                        <li>
+                            <time datetime="2020-04-01">2020.04.01</time>
+                            <p><a href="https://www.phys.s.u-tokyo.ac.jp/award/21632/" target="_blank">これまでの読書歴</a></p>
+                        </li>
+                        <li>
+                            <time datetime="2020-03-30">2020.03.30</time>
+                            <p><a href="timeline/meg/">これまでの映画歴</a></p>
+                        </li>
+                    </ul>
+                </section>
+                <!-- /information -->
+
+                <section class="personal-block">
+                    <h2 class="top-hd">カレーめも</h2>
+                    <ul class="personal-block__list">
+                        <li class="personal-block__item">
+                            <a href="contents/spice.html">
+                                <figure>
+                                    <img src="./img/book.png" alt="" style="float:left;"/>
+                                </figure>
+                            </a>
+                        </li>
+                        <li class="personal-block__description">
+                            <p>
+                            スパイスについて
+                            </p>
+                        </li>
+                        <li class="personal-block__item">
+                            <a href="contents/curry.html">
+                                <figure>
+                                    <img src="./img/france.jpg" alt="" style="float:left;"/>
+                                </figure>
+                            </a>
+                        </li>
+                        <li class="personal-block__description">
+                            <p>
+                            カレーのレシピ。
+                            </p>
+                        </li>
+                    </ul>
+                </section>
+
+                <section class="world-tour">
+                    <h2 class="top-hd">これまで滞在した海外</h2>
+                    <p class="world-tour__lead">研究やら個人的にやら（計：８ヶ国）</p>
+                    <ul class="world-tour__list">
+                        <li class="world-tour__item">
+                            <a href="graduate/index.html#office-01">
+                                <figure>
+                                    <img src="./img/france.jpg" alt="" />
+                                </figure>
+                                <span class="name">フランス</span>
+                                <span>パリ</span>
+                            </a>
+                        </li>
+                        <li class="world-tour__item">
+                            <a href="graduate/index.html#office-04">
+                                <figure>
+                                    <img src="./img/france.jpg" alt="" />
+                                </figure>
+                                <span class="name">スイス</span>
+                                <span class="project">ジュネーブ、ローザンヌ</span>
+                            </a>
+                        </li>
+                        <li class="world-tour__item">
+                            <a href="graduate/index.html#office-09">
+                                <figure>
+                                    <img src="./img/france.jpg" alt="" />
+                                </figure>
+                                <span class="name">スペイン</span>
+                                <span class="project">バルセロナ、マドリード</span>
+                            </a>
+                        </li>
+                        <li class="world-tour__item">
+                            <a href="graduate/index.html#office-03">
+                                <figure>
+                                    <img src="./img/france.jpg" alt="" />
+                                </figure>
+                                <span class="name">イギリス</span>
+                                <span class="project">ロンドン</span>
+                            </a>
+                        </li>
+                        <li class="world-tour__item">
+                            <a href="graduate/index.html#office-05">
+                                <figure>
+                                    <img src="./img/france.jpg" alt="" />
+                                </figure>
+                                <span class="name">ブルガリア</span>
+                                <span class="project">ソフィア</span>
+                            </a>
+                        </li>
+                        <li class="world-tour__item">
+                            <a href="graduate/index.html#office-06">
+                                <figure>
+                                    <img src="./img/france.jpg" alt="" />
+                                </figure>
+                                <span class="name">ベトナム</span>
+                                <span class="project">クイニョン</span>
+                            </a>
+                        </li>
+                        <li class="world-tour__item">
+                            <a href="graduate/index.html#office-10">
+                                <figure>
+                                    <img src="./img/france.jpg" alt="" />
+                                </figure>
+                                <span class="name">ベルギー</span>
+                                <span class="project">ブリュッセル</span>
+                            </a>
+                        </li>
+                        <li class="world-tour__item">
+                            <a href="graduate/index.html#office-11">
+                                <figure>
+                                    <img src="./img/france.jpg" alt="" />
+                                </figure>
+                                <span class="name">イタリア</span>
+                                <span class="project">ローマ、フィレンツェ、ピサ</span>
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+                <!-- /.world-tour -->
+            </div>
+            <!-- /.top-links -->
+
+            <button class="to-top"></button>
+
+            <footer id="footer">
+                <div class="inner clearfix">
+                    <nav id="nav-footer" class="clearfix">
+                        <ul>
+                            <li><a href="about/index.html">ICEPPについて</a></li>
+                            <li><a href="elementaryparticle/index.html">素粒子とは？</a></li>
+                            <li><a href="research/index.html">研究活動</a></li>
+                            <li><a href="collaboration/index.html">共同研究</a></li>
+                            <li><a href="graduate/index.html">大学院教育</a></li>
+                            <li><a href="outreach/index.html">広報活動</a></li>
+                            <li><a href="information/index.html">インフォメーション</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="access/index.html">アクセス</a></li>
+                            <li><a href="job/index.html">採用情報</a></li>
+                            <li><a href="sitemap/index.html">サイトマップ</a></li>
+                            <li><a href="en/index.html">ENGLISH</a></li>
+                        </ul>
+                    </nav>
+                    <div id="footer-r">
+                        <strong>東京大学素粒子物理国際研究センター</strong>
+                        <p>〒113-0033 東京都文京区本郷7-3-1 </p>
+                        <p>東京大学 (本郷キャンパス) 理学部1号館西棟10階 </p>
+                        <p>TEL:03-3815-8384 &#47; FAX:03-3814-8806 </p>
+                        <p>E-MAIL:<a
+                         href="&#109;ail&#116;&#111;&#58;hisho&#65312;i&#99;epp.&#115;.&#117;&#45;t&#111;&#107;&#121;o&#46;&#97;c&#46;&#106;p">h&#105;sho＠i&#99;e&#112;&#112;.&#115;&#46;&#117;-&#116;&#111;&#107;&#121;o.&#97;&#99;&#46;jp</a>
+                        </p>
+                    </div>
+                    <p class="copy"><small>Copyright &copy;International Center for Elementary Particle Physics&#46; All Rights
+                        Reserved&#46;</small></p>
+                    <a class="to-univ" href="http://www.u-tokyo.ac.jp/index_j.html" target="_blank">東京大学</a>
                 </div>
-            </div>
+            </footer>
 
-            <div class="main_body">
-                <h1>実績</h1>
-                <h2>論文実績</h2>
-                ATLAS group 共著者として他216編
-
-                <h2>国際会議（口頭発表）</h2>
-                <ul>
-                    <li>Kosuke Takeda, “Software-based data acquisition system for Level-1 end-cap muon trigger in ATLAS Run-3”, Computing In High Energy And Nuclear Physics (CHEP 2018), Sofia, Bulgaria, 9th July 201</li>
-                </ul>
-
-                <h2>国際会議（ポスター発表）</h2>
-                <ul>
-                    <li>Kosuke Takeda, “Development of software-based data acquisition system for the Level-1 Endcap Muon Trigger in ATLAS Run-3”, The Fourth Asia-Europe-Pacific School of High-Energy Physics, Vietnam, September.</li>
-                </ul>
-
-                <h2>国内学会</h2>
-                <ul>
-                    <li>竹田康亮, 藏重久弥, 前田順平, 谷岡凌, 赤塚駿一, 岡崎佑太, 佐々木修, 水上淳「LHC-ATLASミューオントリガーにおけるプロセス間通信を用いたデータ収集システムのためのソフトウェア開発」, 日本物理 学会 第72回年次大会, 18pK34-2, 大阪, 2017年3月18日.</li>
-                    <li>竹田康亮, 藏重久弥, 前田順平, 佐々木修, 岸本巴「LHC-ATLAS実験Run-3初段ミューオントリガーシ ステムのためのデータ収集システム統合試験」, 日本物理学会 秋季大会, 14aS34-8, 宇都宮, 2017年9月14日.</li>
-                    <li>竹田康亮, 藏重久弥, 前田順平, 「LHC-ATLAS実験Run-3に向けた初段ミューオントリガー不感領域削減の為のトリガーロジックの開発」,日本物理学会 第73回年次大会, 23pK205-1, 東京, 2018年3月23日.</li>
-                    <li>竹田康亮, 藏重久弥, 前田順平, 津野総司, 奥村恭幸, 江成祐二, 寄田浩平, 森永真央, 三谷貴志「LHC-ATLAS実験における高エネルギータウ粒子の再構成効率の改善」, 日本物理学会第74年次大会, 14aK406-11, 九州, 2019年3月14日</li>
-                    <li>竹田康亮, 藏重久弥, 江成祐二, 奥村恭幸, 津野総司, 寄田浩平, 三谷貴志, 飯澤知弥「LHC-ATLAS実験Run2におけるボトムクォークとタウ粒子に崩壊するスカラーレプトクォークの探索感度の評価」, 日本物理学会第75回, 19aT12-6, 山形, 2019年9月19日</li>
-                </ul>
-
-                <h2>その他</h2>
-                <ul>
-                    <li>竹田康亮,『オルソポジトロニウムの寿命測定』, 高エネルギー物理春の学校, 滋賀, 2016年5月13日.</li>
-                    <li>竹田康亮,『ATLASミューオントリガー用のネットワークを用いたデータ収集システムのためのソフト ウェア開発』, 23rd ICEPP Symposium, 長野, 2017年2月22日.</li>
-                </ul>
-            </div>
         </div>
+        <!-- SCRIPTS -->
+        <script src="common/js/jquery.min.js"></script>
+        <script src="common/js/jquery.easing.js"></script>
+        <script src="common/js/common.js"></script>
     </body>
+
 </html>
