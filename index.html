@@ -7,207 +7,83 @@
         <title>Kosuke Takeda Web</title>
         <meta name="description" content="Kosuke Takeda personal page">
         <meta name="viewport" content="width=1024">
-        <link rel='stylesheet' href='css/common.css'>
         <link rel='stylesheet' href='css/main_page.css'>
-        <link rel='stylesheet' href='css/personal_info.css'>
     </head>
 
-    <body class="top" id="top">
+    <body>
         <div id="wrapper">
 
             <!-- ヘッダー -->
             <header id="header">
-                <div id="header-under">
-                    <div class="inner">
-                        <nav id="nav-header-main">
-                            <ul class="clearfix">
-                                <li><a href="contents/history.html">研究業績</a></li>
-                                <li><a href="contents/memo.html">技術メモ</a></li>
-                                <li><a href="https://github.com/ksktkd" target="_blank">GitHub</a></li>
-                            </ul>
-                        </nav>
-                    </div>
-                </div> <!-- header under -->
+                <nav id="nav-header-main">
+                    <ul class="clearfix">
+                        <li><a href="contents/history.html">研究業績</a></li>
+                        <li><a href="contents/memo.html">技術メモ</a></li>
+                        <li><a href="https://github.com/ksktkd" target="_blank">GitHub</a></li>
+                    </ul>
+                </nav>
             </header>
 
             <!-- メイン -->
             <div id="main" class="clearfix">
 
                 <!-- /.top-visual -->
-                <div class="top-visual">
-                    <div class="top-slide" id="js-top-slide">
-                        <img src="./img/takeda.jpg" width=50%>
+                <div id="top-visual">
+                    <div id="top-picture">
+                    </div>
+                    <div id="top-info">
+                        テスト
                     </div>
                 </div>
 
                 <!-- /.top-info -->
-                <section class="top-info">
-                    <h2 class="top-hd">Contents</h2>
-                    <a href="information/" class="top-link">一覧</a>
-                    <ul class="top-info__list">
-                        <li>
-                            <time datetime="2020-04-01">2020.04.01</time>
-                            <p><a href="https://www.phys.s.u-tokyo.ac.jp/award/21632/" target="_blank">これまでの読書歴</a></p>
-                        </li>
-                        <li>
-                            <time datetime="2020-03-30">2020.03.30</time>
-                            <p><a href="timeline/meg/">これまでの映画歴</a></p>
-                        </li>
-                    </ul>
+                <section id="contents">
+                    <h2>Contents</h2>
+                    <div class="each-page clearfix">
+                        <img src="./img/book.png"/>
+                        <p>
+                        スパイスについて
+                        </p>
+                    </div>
+                    <div class="each-page clearfix">
+                        <img src="./img/book.png"/>
+                        <p>
+                        スパイスについて
+                        </p>
+                    </div>
+                    <div class="each-page clearfix">
+                        <img src="./img/book.png"/>
+                        <p>
+                        スパイスについて
+                        </p>
+                    </div>
                 </section>
                 <!-- /information -->
 
-                <section class="personal-block">
-                    <h2 class="top-hd">カレーめも</h2>
-                    <ul class="personal-block__list">
-                        <li class="personal-block__item">
-                            <a href="contents/spice.html">
-                                <figure>
-                                    <img src="./img/book.png" alt="" style="float:left;"/>
-                                </figure>
-                            </a>
-                        </li>
-                        <li class="personal-block__description">
-                            <p>
-                            スパイスについて
-                            </p>
-                        </li>
-                        <li class="personal-block__item">
-                            <a href="contents/curry.html">
-                                <figure>
-                                    <img src="./img/france.jpg" alt="" style="float:left;"/>
-                                </figure>
-                            </a>
-                        </li>
-                        <li class="personal-block__description">
-                            <p>
-                            カレーのレシピ。
-                            </p>
-                        </li>
-                    </ul>
-                    <h2 class="top-hd">勉強めも</h2>
-                    <ul class="personal-block__list">
-                        <li class="personal-block__item">
-                            <a href="contents/world_war.html">
-                                <figure>
-                                    <img src="./img/sensou_senjou.png" alt="" style="float:left;"/>
-                                </figure>
-                            </a>
-                        </li>
-                        <li class="personal-block__description">
-                            <p>
-                            世界戦争史
-                            </p>
-                        </li>
-                    </ul>
-                </section>
-
-               <!-- <section class="world-tour">
-                    <h2 class="top-hd">これまで滞在した海外</h2>
-                    <p class="world-tour__lead">研究やら個人的にやら（計：８ヶ国）</p>
-                    <ul class="world-tour__list">
-                        <li class="world-tour__item">
-                            <a href="graduate/index.html#office-01">
-                                <figure>
-                                    <img src="./img/france.jpg" alt="" />
-                                </figure>
-                                <span class="name">フランス</span>
-                                <span>パリ</span>
-                            </a>
-                        </li>
-                        <li class="world-tour__item">
-                            <a href="graduate/index.html#office-04">
-                                <figure>
-                                    <img src="./img/france.jpg" alt="" />
-                                </figure>
-                                <span class="name">スイス</span>
-                                <span class="project">ジュネーブ、ローザンヌ</span>
-                            </a>
-                        </li>
-                        <li class="world-tour__item">
-                            <a href="graduate/index.html#office-09">
-                                <figure>
-                                    <img src="./img/france.jpg" alt="" />
-                                </figure>
-                                <span class="name">スペイン</span>
-                                <span class="project">バルセロナ、マドリード</span>
-                            </a>
-                        </li>
-                        <li class="world-tour__item">
-                            <a href="graduate/index.html#office-03">
-                                <figure>
-                                    <img src="./img/france.jpg" alt="" />
-                                </figure>
-                                <span class="name">イギリス</span>
-                                <span class="project">ロンドン</span>
-                            </a>
-                        </li>
-                        <li class="world-tour__item">
-                            <a href="graduate/index.html#office-05">
-                                <figure>
-                                    <img src="./img/france.jpg" alt="" />
-                                </figure>
-                                <span class="name">ブルガリア</span>
-                                <span class="project">ソフィア</span>
-                            </a>
-                        </li>
-                        <li class="world-tour__item">
-                            <a href="graduate/index.html#office-06">
-                                <figure>
-                                    <img src="./img/france.jpg" alt="" />
-                                </figure>
-                                <span class="name">ベトナム</span>
-                                <span class="project">クイニョン</span>
-                            </a>
-                        </li>
-                        <li class="world-tour__item">
-                            <a href="graduate/index.html#office-10">
-                                <figure>
-                                    <img src="./img/france.jpg" alt="" />
-                                </figure>
-                                <span class="name">ベルギー</span>
-                                <span class="project">ブリュッセル</span>
-                            </a>
-                        </li>
-                        <li class="world-tour__item">
-                            <a href="graduate/index.html#office-11">
-                                <figure>
-                                    <img src="./img/france.jpg" alt="" />
-                                </figure>
-                                <span class="name">イタリア</span>
-                                <span class="project">ローマ、フィレンツェ、ピサ</span>
-                            </a>
-                        </li>
-                    </ul>
-                </section>
-                <!-- /.world-tour -->
-                -->
-            </div>
-            <!-- /.top-links -->
-
-            <button class="to-top"></button>
-
+            <!-- フッター -->
             <footer id="footer">
-                <div class="inner clearfix">
+                <div class="clearfix">
                     <nav id="nav-footer" class="clearfix">
                         <ul>
-                            <li><a href="index.html">トップページ</a></li>
-                            <li><a href="research/index.html">研究活動</a></li>
+                            <li><a href="../index.html">トップページ</a></li>
+                            <li><a href="../index.html">トップページ</a></li>
+                            <li><a href="../index.html">トップページ</a></li>
                         </ul>
                         <ul>
-                            <li><a href="access/index.html">GitHub</a></li>
-                            <li><a href="job/index.html">Twitter</a></li>
-                            <li><a href="sitemap/index.html">Facebook</a></li>
+                            <li><a href="../index.html">トップページ</a></li>
+                            <li><a href="../index.html">トップページ</a></li>
+                            <li><a href="../index.html">トップページ</a></li>
                         </ul>
                     </nav>
+                    <p>Copyright &copy;Kosuke Takeda&#46; All Rights Reserved&#46;</p>
                 </div>
             </footer>
 
-        </div>
-        <!-- SCRIPTS -->
-        <script src="common/js/jquery.min.js"></script>
-        <script src="common/js/jquery.easing.js"></script>
-        <script src="common/js/common.js"></script>
+            </div>
+            <!-- SCRIPTS -->
+            <script src="common/js/jquery.min.js"></script>
+            <script src="common/js/jquery.easing.js"></script>
+            <script src="common/js/common.js"></script>
     </body>
 
 </html>

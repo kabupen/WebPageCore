@@ -58,7 +58,7 @@
 #side { 
     width: 230px; 
     float: left; 
-    margin: 60px 0px 0px 40px; 
+    margin: 80px 0px 0px 40px; 
 }
 #nav-side h3 {
     width: 200px;
@@ -103,7 +103,7 @@
     margin: 5px auto 5px;
 }
 #content {
-    padding: 50px 0px 0px 300px;
+    padding: 80px 0px 0px 300px;
 }
 #content h2 { 
     font-size: 24px; 
@@ -117,6 +117,15 @@
 }
 #content p { 
     font-size: 12px; 
+}
+#content ul.month {
+    margin-top: 3px;
+    font-size: 16px;
+}
+#content ul.description { 
+    font-size: 14px;
+    margin-left: 0px;
+    list-style: none;
 }
 
 /* ====================================== */
