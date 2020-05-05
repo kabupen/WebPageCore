@@ -8,39 +8,21 @@
         <meta name="description" content="Kosuke Takeda personal page">
         <meta name="viewport" content="width=1024">
         <link rel='stylesheet' href='css/common.css'>
+        <link rel='stylesheet' href='css/main_page.css'>
         <link rel='stylesheet' href='css/personal_info.css'>
     </head>
 
     <body class="top" id="top">
         <div id="wrapper">
-            <header id="header">
-                <div id="header-top" class="clearfix">
-                    <div class="inner">
-                        <h1><a href="/">素粒子物理国際研究センター</a></h1>
-                        <div id="header-r">
-                            <nav id="nav-header-sub">
-                                <ul class="clearfix">
-                                    <li><a href="access/index.html">アクセス</a></li>
-                                    <li><a href="job/index.html">採用情報</a></li>
-                                    <li><a href="sitemap/index.html">サイトマップ</a></li>
-                                    <li><a href="en/index.html">ENGLISH</a></li>
-                                </ul>
-                            </nav>
-                            <a class="to-univ" href="http://www.u-tokyo.ac.jp/index_j.html" target="_blank">東京大学</a>
-                        </div>
-                    </div>
-                </div> <!-- header top -->
 
+            <!-- ヘッダー -->
+            <header id="header">
                 <div id="header-under">
                     <div class="inner">
                         <nav id="nav-header-main">
                             <ul class="clearfix">
                                 <li><a href="contents/history.html">研究業績</a></li>
                                 <li><a href="contents/memo.html">技術メモ</a></li>
-                                <li><a href="research/index.html">研究活動</a></li>
-                                <li><a href="collaboration/index.html">共同研究</a></li>
-                                <li><a href="graduate/index.html">大学院教育</a></li>
-                                <li><a href="outreach/index.html">広報活動</a></li>
                                 <li><a href="https://github.com/ksktkd" target="_blank">GitHub</a></li>
                             </ul>
                         </nav>
@@ -48,17 +30,17 @@
                 </div> <!-- header under -->
             </header>
 
+            <!-- メイン -->
             <div id="main" class="clearfix">
+
+                <!-- /.top-visual -->
                 <div class="top-visual">
-                    <div class="top-visual__inner">
-                        <h2 class="top-visual__hd" id="js-top-visual-hd">
-                        </h2>
-                    </div>
                     <div class="top-slide" id="js-top-slide">
                         <img src="./img/takeda.jpg" width=50%>
                     </div>
                 </div>
-                <!-- /.top-visual -->
+
+                <!-- /.top-info -->
                 <section class="top-info">
                     <h2 class="top-hd">Contents</h2>
                     <a href="information/" class="top-link">一覧</a>
@@ -103,9 +85,24 @@
                             </p>
                         </li>
                     </ul>
+                    <h2 class="top-hd">勉強めも</h2>
+                    <ul class="personal-block__list">
+                        <li class="personal-block__item">
+                            <a href="contents/world_war.html">
+                                <figure>
+                                    <img src="./img/sensou_senjou.png" alt="" style="float:left;"/>
+                                </figure>
+                            </a>
+                        </li>
+                        <li class="personal-block__description">
+                            <p>
+                            世界戦争史
+                            </p>
+                        </li>
+                    </ul>
                 </section>
 
-                <section class="world-tour">
+               <!-- <section class="world-tour">
                     <h2 class="top-hd">これまで滞在した海外</h2>
                     <p class="world-tour__lead">研究やら個人的にやら（計：８ヶ国）</p>
                     <ul class="world-tour__list">
@@ -184,6 +181,7 @@
                     </ul>
                 </section>
                 <!-- /.world-tour -->
+                -->
             </div>
             <!-- /.top-links -->
 
@@ -193,33 +191,15 @@
                 <div class="inner clearfix">
                     <nav id="nav-footer" class="clearfix">
                         <ul>
-                            <li><a href="about/index.html">ICEPPについて</a></li>
-                            <li><a href="elementaryparticle/index.html">素粒子とは？</a></li>
+                            <li><a href="index.html">トップページ</a></li>
                             <li><a href="research/index.html">研究活動</a></li>
-                            <li><a href="collaboration/index.html">共同研究</a></li>
-                            <li><a href="graduate/index.html">大学院教育</a></li>
-                            <li><a href="outreach/index.html">広報活動</a></li>
-                            <li><a href="information/index.html">インフォメーション</a></li>
                         </ul>
                         <ul>
-                            <li><a href="access/index.html">アクセス</a></li>
-                            <li><a href="job/index.html">採用情報</a></li>
-                            <li><a href="sitemap/index.html">サイトマップ</a></li>
-                            <li><a href="en/index.html">ENGLISH</a></li>
+                            <li><a href="access/index.html">GitHub</a></li>
+                            <li><a href="job/index.html">Twitter</a></li>
+                            <li><a href="sitemap/index.html">Facebook</a></li>
                         </ul>
                     </nav>
-                    <div id="footer-r">
-                        <strong>東京大学素粒子物理国際研究センター</strong>
-                        <p>〒113-0033 東京都文京区本郷7-3-1 </p>
-                        <p>東京大学 (本郷キャンパス) 理学部1号館西棟10階 </p>
-                        <p>TEL:03-3815-8384 &#47; FAX:03-3814-8806 </p>
-                        <p>E-MAIL:<a
-                         href="&#109;ail&#116;&#111;&#58;hisho&#65312;i&#99;epp.&#115;.&#117;&#45;t&#111;&#107;&#121;o&#46;&#97;c&#46;&#106;p">h&#105;sho＠i&#99;e&#112;&#112;.&#115;&#46;&#117;-&#116;&#111;&#107;&#121;o.&#97;&#99;&#46;jp</a>
-                        </p>
-                    </div>
-                    <p class="copy"><small>Copyright &copy;International Center for Elementary Particle Physics&#46; All Rights
-                        Reserved&#46;</small></p>
-                    <a class="to-univ" href="http://www.u-tokyo.ac.jp/index_j.html" target="_blank">東京大学</a>
                 </div>
             </footer>
 
